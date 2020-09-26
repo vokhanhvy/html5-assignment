@@ -239,7 +239,7 @@ body {
 #about > div > .right-about > .text-abt {
     border: 4px solid black;
     flex:2;
-    font-size: 2.5vh;
+    font-size: 1.2rem;
     /* font-weight: bold; */
     margin-left: 5vw;
     line-height: 1.7rem;
@@ -390,9 +390,100 @@ p {
 
 
 #skills {
-    height: 200vh;
+    height: 100vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+   
 }
+#skills >.skill-ttl {
+    flex:1;
+    border: 4px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skills >.skill-ttl > div {
+    height:10vh;
+    border: 4px solid black;
+    text-align: center;
+   
+}
+
+#skills >.skill-container {
+    flex:2;
+    border: 4px solid black;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+#skills >.skill-container > .skill-lang{
+    border: 4px solid black;
+    display: flex;
+    width:25vw;
+    height: 50vh;
+    border-radius: 1.5rem;
+    flex-direction: column;
+   
+}
+#skills >.skill-container > .skill-other{
+    width:30vw;
+    height: 50vh;;
+    border: 4px solid black;
+    display: flex;
+    border-radius: 1.5rem;
+    flex-direction: column;
+}
+#skills >.skill-container .skill-header{
+    flex: 1;
+    border: 4px solid black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+}
+
+#skills >.skill-container .skill-img{
+    flex: 1;
+    border: 4px solid black;
+    justify-content: center;
+    align-items:  center;
+    display: flex;
+}
+ #skills >.skill-container .skill-img >img{
+    border: 4px solid black;
+    margin: 5vh;
+    width: 1-w;
+    height:9vh;
+    
+} 
+#skills >.skill-container .skill-img >div >img{
+    
+    width: 7vw;
+    height:10vh;
+   
+}
+
+#skills >.skill-container .skill-img-desc{
+    flex: 1;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+}
+#skills >.skill-container .skill-img-desc >div{
+    flex: 1;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+
+
 #timeline {
     height: 200vh;
     /* background-color: #332c38; */
