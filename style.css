@@ -6,7 +6,8 @@
   box-sizing: border-box;
 }
 body {
-    background-color: #332c38;;
+    background-color: #332c38;
+    width:100%;
 }
 #home {
     height: 100vh;
