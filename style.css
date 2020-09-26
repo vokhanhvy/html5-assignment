@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.underline{
+    border-bottom:#f64c72 solid 0.3rem  ;
+}
 body {
     background-color: #332c38;   
 }
@@ -69,7 +72,7 @@ body {
     flex: 1;
     border: 4px solid white;
     display: flex;
-    width: 50vw;
+    width: 45vw;
     
 }
 #home > div > .left-home > div {
@@ -106,7 +109,7 @@ body {
 .button {
     flex: 1;
     padding: 0.5rem;
-    width: 9rem;
+    /* width: 9rem; */
     color: white;
     font-weight: bold;
     background-color: #332c38;;
@@ -128,7 +131,7 @@ body {
     
     /* font-weight: bold; */
     border: 4px solid white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
 }
 .icon > div {
@@ -136,7 +139,7 @@ body {
     bottom: 0;
     letter-spacing: 1.5rem;
 }
-.icon > div >a{
+.icon > div > a{
     transition: color 0.75s;
     text-decoration: none;
     color: white;
@@ -162,20 +165,19 @@ body {
 #home > div > .right-home > div {
     border: 4px solid white;
     width: 28vw;
-    height: 50vh;
+    height: 53vh;
     border-radius: 1.5rem;
     
 }
 #home > div > .right-home > div > .avatar {
     border: 4px solid pink;
     width: 28vw;
-    height: 50vh;
+    height: 53vh;
     border-radius: 1.5rem;
     margin-top: -2rem;
     margin-left: -2rem;
     
 }
-
 
 
 #about {
@@ -201,14 +203,14 @@ body {
 #about > div > .left-about > div {
     border: 4px solid black;
     width: 28vw;
-    height: 50vh;
+    height: 53vh;
     border-radius: 1.5rem;
 }
 
 #about > div > .left-about > div > .avatar {
     border: 4px solid pink;
     width: 28vw;
-    height: 50vh;
+    height: 53vh;
     border-radius: 1.5rem;
     margin-top: -2rem;
     margin-left: 2rem;
@@ -219,73 +221,174 @@ body {
     border: 4px solid black;
     flex: 5;
     display: flex;
+    flex-direction: column;
 }
 #about > div > .right-about >.about {
     border: 4px solid black;
     flex:1;
-    font-size: 4rem;
+    /* font-size: 4rem;
+    font-weight: bold; */
+    margin-left: 5vw;
+  
+    
+}
+.title {
+    font-size: 3rem;
     font-weight: bold;
-    margin-left: 4rem;
 }
-
-
-
-/* #about > div > .left-about {
-    flex: 1;
-    border: 4px solid white;
-    display: flex;
-    align-items: center;
-
+#about > div > .right-about > .text-abt {
+    border: 4px solid black;
+    flex:2;
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    margin-left: 5vw;
+    line-height: 1.7rem;
+    margin-right: 3vw;
 }
-#about > div > .left-about > div {
-    border: 4px solid white;
-    width: 24rem;
-    height: 25rem;
-    border-radius: 1.5rem;
-    
+/* #about > div > .right-about > .text-abt >  */
+p {
+    padding-bottom: 1rem;
 }
-#about > div > .left-about > div > .avatar {
-    border: 4px solid pink;
-    width: 24rem;
-    height: 25rem;
-    border-radius: 1.5rem;
-    margin-top: -2rem;
-    margin-right: -2rem;
-    
+#about > div > .right-about > .btn-container {
+    border: 4px solid black;
+    flex:1;
+    /* font-size: 1.2rem; */
+    /* font-weight: bold; */
+    margin-left: 5vw;
+    /* line-height: 1.7rem; */
+    margin-top: 1.5vh;
 }
-#about > div > .right-about {
-    flex: 1;
-    border: 4px solid white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-#about > div > .right-about > .about {
-    flex: 1;
-    border: 4px solid white;
-    color: black;
-    Font
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #projects {
-    height: 200vh;
+    height: 220vh;
     /* background-color: #332c38; */
+    display: flex;
+    flex-direction: column;
 }
+
+#projects > .prj-ttl {
+    flex: 1;
+    text-align: center;
+    border: 4px solid white;
+    justify-content: center;
+
+    
+}
+#projects > .prj-container {
+    flex: 12;
+    border: 4px solid white;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;  
+    transition: transform 1s;
+}
+
+
+
+#projects > .prj-container > div {
+   
+    border: 4px solid white;
+    width: 23vw;
+    height: 80vh;
+    margin: 5vw 3vw ;
+    border-radius: 1.5rem;   
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#projects > .prj-container > :hover{
+    transform: scale(1.05);
+}
+#projects > .prj-container > div > img { 
+    border: 4px solid pink;
+    flex:3;
+    width: 100%;
+    height: 30vh; 
+    z-index: -1;
+    border-radius: 1.5rem 1.5rem 0 0 ;  
+    /* padding: 0;
+    margin: 0;  */
+}
+
+#projects > .prj-container > div >  .prj-desc { 
+    border: 4px solid rgb(124, 60, 71);
+    flex:4;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+#projects > .prj-container > div > .prj-desc >.prj-header { 
+    border: 4px solid pink;
+    flex:1;
+}
+#projects .prj-header > .gradient {
+    height: 0.5vh;
+    background-image:linear-gradient(to right, rgb(140, 230, 140), rgb(123, 225, 233));
+    }
+
+
+#projects .prj-p1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#projects .prj-p2 {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+#projects .prj-content {
+    font-size: 1.rem;
+    flex: 2;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+#projects .prj-content > div {
+    margin: 0 2vw 4vh;
+}
+#projects .prj-link{
+    display: flex;
+    border: 4px solid pink;
+    flex: 1;
+    background-color: white;
+    flex-direction: row;
+    
+}
+
+#projects .prj-link > a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    flex: 1;
+    height: 100%;
+    border: 4px solid pink;
+    transition: 0.5s;
+} 
+#projects .prj-link > a:hover {
+    border-radius: 1.5rem;
+   
+    transform: scale(1.2);
+    background-image:linear-gradient(to right, rgb(140, 230, 140), rgb(123, 225, 233));
+    
+
+}
+/* #projects .prj-link > a > div{
+    border: 4px solid pink;
+    /* flex: 1; */
+#projects .prj-link >a > div >div{
+    border: 4px solid pink;
+    text-align: center;
+    margin-top: 1.5vh;
+
+    
+}
+
+
+
 #skills {
     height: 200vh;
     background-color: white;
