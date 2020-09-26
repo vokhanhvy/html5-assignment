@@ -137,7 +137,6 @@ body {
     letter-spacing: 1.5rem;
 }
 .icon > div >a{
-    cursor: pointer;
     transition: color 0.75s;
     text-decoration: none;
     color: white;
