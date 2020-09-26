@@ -9,6 +9,10 @@ body {
     background-color: #332c38;
     width:100%;
 }
+section{
+width:100%;
+}
+
 #home {
     height: 100vh;
     display: flex;
