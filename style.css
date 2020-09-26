@@ -239,7 +239,7 @@ body {
 #about > div > .right-about > .text-abt {
     border: 4px solid black;
     flex:2;
-    font-size: 1.2rem;
+    font-size: 2.5vh;
     /* font-weight: bold; */
     margin-left: 5vw;
     line-height: 1.7rem;
