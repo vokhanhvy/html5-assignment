@@ -54,6 +54,7 @@ body {
     flex: 6;
     border: 4px solid white;
     display: flex;
+    Width:100%;
 }
 
 #home > div > .left-home {
