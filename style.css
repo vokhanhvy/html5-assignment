@@ -143,6 +143,12 @@ body {
     color: white;
 }
 
+.icon > div >a:link{
+    color: white;
+}
+.icon > div >a:visited{
+    color: white;
+}
 .icon > div >a:hover{
     color: #f64c72;
 }
