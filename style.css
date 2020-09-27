@@ -238,6 +238,9 @@ body {
         flex: 6;
     }
 
+    #home > div > .right-home > div  {
+        border: none;
+    }
     #home > div > .right-home > div > .avatar {
         margin-top: 0rem;
         margin-left: 0rem;
