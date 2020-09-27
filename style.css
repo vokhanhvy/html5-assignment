@@ -244,8 +244,8 @@ body {
     }
 
     #home > div > .right-home > div > .avatar {
-        /* margin-top: -3rem;
-        margin-left: -3rem; */
+        margin-top: 0;
+        margin-left: 0;
     }
 
     #home > div > .left-home > div.intro-2 {
