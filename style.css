@@ -241,10 +241,10 @@ body {
     #home > div > .right-home > div  {
         border: 1px solid #332c38;
     }
-    
+
     #home > div > .right-home > div > .avatar {
-        margin-top: -2rem;
-        margin-left: -2rem;
+        margin-top: 0;
+        margin-left: 0;
     }
 
     #home > div > .left-home > div.intro-2 {
@@ -782,7 +782,7 @@ body {
     }
 
 #blog > .blg-container> div > .blg-desc > p {
-    margin: 1vh 3vw 1vh 2vw;
+    margin: 1vh 2vw 1vh 2vw;
     line-height: 1.3rem;
     font-size: 1.1rem;
 }
