@@ -238,8 +238,8 @@ body {
 
     #home > div > .right-home {
         justify-content: center;
-        align-items: center;
-        flex: 6;
+        /* align-items: center; */
+        flex: 7;
     }
 
     #home > div > .right-home > div  {
