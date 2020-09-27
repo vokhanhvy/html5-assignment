@@ -9,14 +9,14 @@
     border-bottom:#f64c72 solid 0.3rem  ;
 }
 body {
-    background-color: #332c38;   
+    background-color: #332c38;
 }
 
 #home {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 #home > nav {
@@ -25,14 +25,14 @@ body {
     border: 4px solid white;
     display: flex;
     flex: 1;
-   
+
 }
 #home > nav > ul {
     width: 100%;
     list-style-type: none;
     display: flex;
     align-items: center;
-   
+
   }
   #home > nav > ul >li {
     flex: 1;
@@ -46,19 +46,19 @@ body {
     font-size: 1.5rem;
     transition: color 0.75s;
   }
-  
+
   #home > nav > ul > li > a:hover {
     color: #f64c72;
   }
   #home > nav > ul > li > a:active {
     color: #f64c72;
   }
- 
+
   #home > div {
     flex: 6;
     border: 4px solid white;
     display: flex;
-   
+
 }
 
 
@@ -67,7 +67,7 @@ body {
     border: 4px solid red;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -75,14 +75,14 @@ body {
 #home > div > .left-home > div {
  margin-left: 7vw;
  margin-right: 7vw;
-} 
- 
+}
+
 
 #home > div > .left-home > .intro{
     flex: 3;
     border: 4px solid green;
-    display: flex;  
-    flex-direction: column;  
+    display: flex;
+    flex-direction: column;
 }
 
 #home > div > .left-home > .intro > .name {
@@ -104,13 +104,13 @@ body {
     align-items: flex-start;
     flex: 1;
     border:4px solid orange;
-    
+
 }
 
 #home > div > .left-home > div.intro-2 {
     flex:1;
     border: 4px solid blue;
-    display: flex; 
+    display: flex;
     /* width: 100%; */
     position: relative;
 }
@@ -128,41 +128,46 @@ body {
     transition: color 0.75s;
 }
 .button:hover {
-    
-    color: #332c38;  
+
+    color: #332c38;
     background-color: white;
-    
+
 }
 
 
 
 #home > div > .left-home > .icon {
-    flex: 2; 
+    flex: 2;
     border: 4px solid yellow;
 }
 
-#home > div > .left-home > .icon > div {
+/* #home > div > .left-home > .icon > div { */
+    .icon {
     bottom: 0;
     letter-spacing: 1.3rem;
 }
 
-#home > div > .left-home > .icon > div > a{
+/* #home > div > .left-home > .icon > div > a{ */
+    .icon > div > a {
     transition: color 0.75s;
     text-decoration: none;
     color: white;
     font-size: 1.5rem;
 }
 
-#home > div > .left-home > .icon > div > a:link{
+/* #home > div > .left-home > .icon > div > a:link{ */
+    .icon > div > a:link{
     color: white;
 }
-#home > div > .left-home > .icon > div > a:visited{
+/* #home > div > .left-home > .icon > div > a:visited{ */
+    .icon > div > a:visited{
     color: white;
 }
-#home > div > .left-home > .icon > div > a:hover{
+/* #home > div > .left-home > .icon > div > a:hover{ */
+    .icon > div > a:hover{
     color: #f64c72;
-} 
-    
+}
+
 
 #home > div > .right-home {
     flex: 4;
@@ -176,7 +181,7 @@ body {
     width: 330px;
     height: 330px;
     border-radius: 1.5rem;
-    
+
 }
 #home > div > .right-home > div > .avatar {
     border: 4px solid pink;
@@ -185,16 +190,16 @@ body {
     border-radius: 1.5rem;
     margin-top: -2rem;
     margin-left: -2rem;
-    
+
 }
 
 @media screen and (max-width:800px) {
-    
+
     #home > div {
         flex-direction: column;
     }
-    
-    
+
+
 #home > div {
        flex: 12;
 }
@@ -209,17 +214,17 @@ body {
         justify-content: center;
         flex: 6;
     }
-    
-    
+
+
     #home > div > .right-home > div > .avatar {
-    
+
         /* width: 100%; */
         /* height:50% */
         margin-top: 0rem;
         margin-left: 0rem;
-        
-    } 
-} 
+
+    }
+}
 
 #about {
     height: 80vh;
@@ -255,7 +260,7 @@ body {
     border-radius: 1.5rem;
     margin-top: -2rem;
     margin-left: 2rem;
-    
+
 }
 
 #about > div > .right-about {
@@ -272,8 +277,8 @@ body {
     margin-left: 3vw;
     display: flex;
     align-items: center;
-  
-    
+
+
 }
 .title {
     font-size: 3rem;
@@ -307,20 +312,20 @@ p {
         height: 70vh;
     }
     #about > div {
-        
+
         flex-direction: column;
     }
     #about > div > .left-about {
         display: none;
     }
-    
+
 }
 @media screen and (max-width:800px) {
 #about > div > .right-about > .text-abt {
-      
+
     font-size: 0.9rem;
     /* font-weight: bold; */
-    
+
 }
 }
 
@@ -339,46 +344,46 @@ p {
     align-items: center;
     display: flex;
 
-    
+
 }
 #projects > .prj-container {
     flex: 12;
     border: 4px solid white;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-between;  
+    flex-wrap: wrap;
+    justify-content: space-between;
     transition: transform 1s;
 }
 
 
 
 #projects > .prj-container > div {
-   
+
     border: 4px solid white;
     width: 23vw;
     height: 80vh;
     margin: 5vw 3vw ;
-    border-radius: 1.5rem;   
+    border-radius: 1.5rem;
     display: flex;
     flex-direction: column;
-   
+
 }
 
 #projects > .prj-container > :hover{
     transform: scale(1.05);
 }
-#projects > .prj-container > div > img { 
+#projects > .prj-container > div > img {
     border: 4px solid pink;
     flex:3;
     width: 100%;
-    height: 30vh; 
+    height: 30vh;
     z-index: -1;
-    border-radius: 1.5rem 1.5rem 0 0 ;  
+    border-radius: 1.5rem 1.5rem 0 0 ;
     /* padding: 0;
     margin: 0;  */
 }
 
-#projects > .prj-container > div >  .prj-desc { 
+#projects > .prj-container > div >  .prj-desc {
     border: 4px solid rgb(124, 60, 71);
     flex:4;
     display: flex;
@@ -386,7 +391,7 @@ p {
     flex-direction: column;
 }
 
-#projects > .prj-container > div > .prj-desc >.prj-header { 
+#projects > .prj-container > div > .prj-desc >.prj-header {
     border: 4px solid pink;
     flex:1;
 }
@@ -413,7 +418,7 @@ p {
     justify-content: center;
     align-items: center; */
     /* display: flex; */
-    
+
     /* border: 4px solid green; */
 }
 
@@ -427,7 +432,7 @@ p {
     background-color: white;
     flex-direction: row;
     font-size: 0.9rem;;
-    
+
 }
 
 #projects .prj-link > a{
@@ -438,13 +443,13 @@ p {
     height: 100%;
     border: 4px solid pink;
     transition: 0.5s;
-} 
+}
 #projects .prj-link > a:hover {
     border-radius: 1.5rem;
-   
+
     transform: scale(1.2);
     background-image:linear-gradient(to right, rgb(140, 230, 140), rgb(123, 225, 233));
-    
+
 
 }
 /* #projects .prj-link > a > div{
@@ -455,54 +460,54 @@ p {
     text-align: center;
     margin-top: 1.5vh;
 
-    
+
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1080px) {
     #projects > .prj-container > div {
-   
-       
+
+
         width: 35vw;
-        
-       
+
+
     }
 
     #projects > .prj-container {
-       
-        justify-content: space-around;  
-        
+
+        justify-content: space-around;
+
     }
     #projects .prj-link{
-        
+
         font-size: 1rem;;
-        
+
     }
-    
-    
-    
+
+
+
 }
-@media screen and (max-width:650px) {
+@media screen and (max-width:800px) {
     #projects {
         height: 400vh;
     }
-  
+
     #projects > .prj-container > div {
-   
-       
+
+
         width: 50vw;
-        
-       
+
+
     }
 
     #projects > .prj-container {
-       
-        justify-content: space-around;  
-        
+
+        justify-content: space-around;
+
     }
     #projects .prj-link{
-        
+
         font-size: 1rem;;
-        
+
     }
 }
 
@@ -511,7 +516,7 @@ p {
     background-color: white;
     display: flex;
     flex-direction: column;
-   
+
 }
 #skills >.skill-ttl {
     flex:1;
@@ -525,33 +530,33 @@ p {
     height:10vh;
     border: 4px solid black;
     text-align: center;
-   
+
 }
 
 #skills >.skill-container {
-    flex:2;
+    flex:10;
     border: 4px solid black;
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: space-around; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
-#skills >.skill-container > .skill-lang{
+#skills >.skill-container > .skill-all{
     border: 4px solid black;
     display: flex;
     width:25vw;
     height: 50vh;
     border-radius: 1.5rem;
     flex-direction: column;
-   
+    margin-left: 3vw;
+    margin-right: 2vw;
+    /* margin-bottom: 3vh; */
+    margin-top: 3vh;
+
+    /* flex: 1; */
+
 }
-#skills >.skill-container > .skill-other{
-    width:30vw;
-    height: 50vh;;
-    border: 4px solid black;
-    display: flex;
-    border-radius: 1.5rem;
-    flex-direction: column;
-}
+
 #skills >.skill-container .skill-header{
     flex: 1;
     border: 4px solid black;
@@ -575,13 +580,13 @@ p {
     margin: 5vh;
     width: 1-w;
     height:9vh;
-    
-} 
+
+}
 #skills >.skill-container .skill-img >div >img{
-    
+
     width: 7vw;
     height:10vh;
-   
+
 }
 
 #skills >.skill-container .skill-img-desc{
@@ -599,6 +604,42 @@ p {
     font-size: 1.2rem;
 }
 
+@media screen and (max-width:1080px) {
+    #skills {
+        height: 130vh;
+    }
+    #skills >.skill-container{
+        justify-content: flex-start;
+    }
+    #skills >.skill-container > .skill-all{
+
+        width:40vw;
+
+
+    }
+   
+   
+}
+@media screen and (max-width:800px) {
+
+    #skills {
+        height: 200vh;
+    }
+    #skills >.skill-container {
+        justify-content: center;
+}
+
+
+
+    #skills >.skill-container > .skill-all{
+        justify-content: center;
+        width:80vw;
+
+
+    }
+   
+}
+
 
 
 #timeline {
@@ -609,7 +650,7 @@ p {
     flex-direction: column;
 }
 /* #timeline > div {
-   
+
 } */
 
 
@@ -619,33 +660,33 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
      flex: 1;
 }
 #timeline >.time-container {
-    flex: 6; 
+    flex: 6;
     border: 4px solid pink;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} 
+}
 #timeline >.time-container > .time-cnt {
     border: 4px solid pink;
     flex: 1;
     width: 50%;
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 }
 /* #timeline .odd {
     display: flex;
-    flex-direction: column;  
+    flex-direction: column;
 } */
 
 #timeline .time-cnt > .time-txt {
     display: flex;
     align-items: flex-end;
-    
+
     border: 4px solid pink;
     border-right:2px dashed #f64c72;
     /* border-radius: 0 0 1.2rem 0; */
@@ -655,21 +696,21 @@ p {
 }
 
 #timeline .even > .time-txt {
-  
+
     border-left:2px dashed #f64c72;
     border-right:none;
-    
-}  
+
+}
 #timeline .time-cnt > .time-txt > p {
     color: white;
-    padding-left: 3vw; 
+    padding-left: 3vw;
     padding-right: 2vw;
     line-height: 1.2rem;
     /* font-size: 1rem;   */
 }
 #timeline .time-cnt > .time-txt > p > .time-header {
     /* font-weight: bold; */
-    font-size: 1.2rem;  
+    font-size: 1.2rem;
 }
 
 #timeline .time-cnt > .time-txt >  .num {
@@ -692,7 +733,7 @@ p {
 
 #timeline .time-cnt > .time-txt >  .num > p {
    margin-bottom: -2.5vh;
- 
+
 }
 
 
@@ -702,10 +743,10 @@ p {
     /* border:2px solid red; */
     position: relative;
     flex: 1;
-    
+
 }
 #timeline .time-cnt > .curve >.r-curve {
-    
+
     border-bottom:2px dashed red;
     border-right: 2px dashed red;
     position: absolute;
@@ -714,16 +755,16 @@ p {
     height: 50%;
     right:0;
     border-radius: 0 0 1.2rem 0;
-    
+
 }
 
 #timeline .even > .curve >.r-curve {
-    
+
     transform: rotateY(180deg) ;
     left:0;
 }
 #timeline .time-cnt > .curve >.l-curve {
-    
+
     border-top:2px dashed red;
     border-left: 2px dashed red;
     position: absolute;
@@ -735,50 +776,238 @@ p {
     border-radius: 1.2rem 0 0 0;
 }
 #timeline .even > .curve > .l-curve {
-    
+
     transform: rotateY(180deg) ;
    left:50%;
 }
 
 @media screen and (max-width:1080px) {
     #timeline >.time-container >.time-cnt {
-       
+
         width: 80%;
-        
+
     }
 
     #timeline .time-cnt > .time-txt {
-  
+
        font-size: 0.9rem;
-        
-    }  
+
+    }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     #timeline >.time-container >.time-cnt {
-       
+
         width: 80%;
-        
+
     }
 
     #timeline .time-cnt > .time-txt {
-  
+
        font-size: 0.8rem;
-        
-    }  
+
+    }
 
     #timeline .time-cnt > .time-txt >  .num {
-        
+
         width: 20px;
         height: 20px;
-       
+
     }
 }
 #blog {
-    height: 200vh;
+    height: 220vh;
     background-color: white;
 }
+
+#blog > .blg-ttl {
+    flex: 1;
+    text-align: center;
+    border: 4px solid green;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+
+}
+#blog > .blg-container {
+    flex: 11;
+    border: 4px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    transition: transform 1s;
+
+}
+
+
+
+#blog > .blg-container > div {
+
+    border: 4px solid black;
+    width: 23vw;
+    height: 80vh;
+    margin: 5vw 3vw ;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+
+}
+
+
+#blog > .blg-container > div > img {
+    border: 4px solid pink;
+    flex:3;
+    width: 100%;
+    height: 30vh;
+    /* z-index: -1; */
+    border-radius: 1.5rem 1.5rem 0 0 ;
+    /* padding: 0;
+    margin: 0;  */
+}
+
+#blog > .blg-container> div >  .blg-desc {
+    border: 4px solid rgb(124, 60, 71);
+    flex:4;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+
+}
+
+
+ #blog > .blg-container> div > .blg-desc > .gradient {
+    /* height: 0.5vh; */
+    background-color:rgb(151, 226, 240);
+    color:white;
+    text-align: center;
+    font-size: 0.8rem;
+    width:35%;
+    height:1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding:0.5rem; */
+    border-radius: 3rem;
+    margin-left: 2vw;
+    margin-top: 1vh;
+    }
+    #blog > .blg-container> div > .blg-desc > p {
+
+        margin: 1vh 3vw 1vh 2vw;
+        line-height: 1.2rem;
+
+    }
+
+    #blog > .blg-container > div > .blg-end{
+        display: flex;
+        border: 4px solid green;
+        flex: 1;
+        background-color: white;
+        /* flex-direction: row; */
+        font-size: 0.9rem;;
+
+    }
+
+
+    #blog .blg-end > .blg-avatar{
+        flex: 1;
+        border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*height: 2vh; */
+        /* height: 100%;
+        border: 4px solid pink;
+        transition: 0.5s; */
+    }
+    #blog .blg-end > .blg-avatar >img{
+
+        width: 40px;
+        height: 40px;
+        /*height: 2vh; */
+        /* height: 100%;
+        border: 4px solid pink;
+        transition: 0.5s; */
+        border-radius: 2.5rem;
+    }
+
+    #blog .blg-end > .blg-date{
+        flex: 3;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        /* width: 100%;
+        height: 2vh; */
+        /* height: 100%;
+        border: 4px solid pink;
+        transition: 0.5s; */
+    }
+
+
+@media screen and (max-width:1080px) {
+    #blog > .blg-container > div {
+
+
+        width: 35vw;
+
+
+    }
+
+    #blog > .blg-container {
+
+        justify-content: space-around;
+
+    }
+
+}
+@media screen and (max-width:800px) {
+    #blog {
+        height: 400vh;
+    }
+
+    #blog > .blg-container > div {
+
+
+        width: 60vw;
+
+
+    }
+
+    #blog > .blg-container {
+
+        justify-content: center;
+
+    }
+
+}
+
+
+
+
+
+
+
 #footer {
     height: 30vh;
-    /* background-color: #332c38; */
+
+    display: flex;
+    flex-direction: column;
+
+
+    border: 2px solid green;
 }
+
+#footer > div {
+    flex: 1;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 1.3rem;
+}
+
+
