@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+.body{
+    font-family: 'Lato', sans-serif;
+}
 .title {
     font-size: 4rem; font-weight: bold;
 }
