@@ -194,9 +194,7 @@ body {
         flex-direction: column;
     }
     
-    #home > nav {
-       
-}
+    
 #home > div {
        flex: 12;
 }
