@@ -398,7 +398,7 @@ p {
 
 #projects .prj-p1 {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 #projects .prj-p2 {
@@ -407,15 +407,18 @@ p {
 }
 
 #projects .prj-content {
-    font-size: 1.rem;
-    flex: 2;
+    font-size: 0.9rem;
+    flex: 3;
     /* display: flex;
     justify-content: center;
     align-items: center; */
+    /* display: flex; */
+    
+    /* border: 4px solid green; */
 }
 
 #projects .prj-content > div {
-    margin: 0 2vw 4vh;
+    margin: 0 1vw 3vh;
 }
 #projects .prj-link{
     display: flex;
@@ -423,6 +426,7 @@ p {
     flex: 1;
     background-color: white;
     flex-direction: row;
+    font-size: 0.9rem;;
     
 }
 
@@ -454,7 +458,53 @@ p {
     
 }
 
+@media screen and (max-width:800px) {
+    #projects > .prj-container > div {
+   
+       
+        width: 35vw;
+        
+       
+    }
 
+    #projects > .prj-container {
+       
+        justify-content: space-around;  
+        
+    }
+    #projects .prj-link{
+        
+        font-size: 1rem;;
+        
+    }
+    
+    
+    
+}
+@media screen and (max-width:650px) {
+    #projects {
+        height: 400vh;
+    }
+  
+    #projects > .prj-container > div {
+   
+       
+        width: 50vw;
+        
+       
+    }
+
+    #projects > .prj-container {
+       
+        justify-content: space-around;  
+        
+    }
+    #projects .prj-link{
+        
+        font-size: 1rem;;
+        
+    }
+}
 
 #skills {
     height: 100vh;
