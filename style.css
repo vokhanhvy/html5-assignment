@@ -189,9 +189,11 @@ body {
 }
 
 @media screen and (max-width:800px) {
+    
     #home > div {
         flex-direction: column;
     }
+    
     #home > nav {
        
         height:4vh;
