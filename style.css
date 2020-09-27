@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-.body,p, div {
+.body, p, div {
     font-family: 'Lato', sans-serif;
 }
 .title {
