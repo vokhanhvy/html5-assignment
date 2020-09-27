@@ -239,8 +239,9 @@ body {
     }
 
     #home > div > .right-home > div  {
-        border: none;
+        border: 1px solid #332c38;
     }
+    
     #home > div > .right-home > div > .avatar {
         margin-top: -2rem;
         margin-left: -2rem;
