@@ -417,7 +417,7 @@ body {
 }
 
 #projects .prj-content {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     flex: 3;
 }
 
@@ -430,7 +430,7 @@ body {
     flex: 1;
     background-color: whitesmoke;
     flex-direction: row;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     border-bottom-left-radius: 1.2rem;
     border-bottom-right-radius: 1.2rem;
     justify-content: center;
