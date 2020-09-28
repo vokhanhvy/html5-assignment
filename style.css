@@ -159,7 +159,7 @@ body {
 }
 
 #home > div > .left-home {
-    flex: 6;
+    flex: 7;
     display: flex;
     flex-direction: column;
 }
