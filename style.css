@@ -64,7 +64,7 @@ body {
 /* HOME */
 
 #home {
-    height: 100vh;
+    height: 110vh;
     display: flex;
     flex-direction: column;
 }
@@ -245,6 +245,7 @@ body {
     #home > div > .right-home > div  {
         border: 1px solid #332c38;
         margin-bottom:1.5rem;
+        border-style:none;
     }
 
     #home > div > .right-home > div > .avatar {
