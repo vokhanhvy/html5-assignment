@@ -801,7 +801,6 @@ body {
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     font-size: 0.9rem;
-    z-index:-1;
 }
 
 #blog .blg-end > .blg-avatar{
