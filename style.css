@@ -789,9 +789,9 @@ body {
     }
 
 #blog > .blg-container> div > .blg-desc > p {
-    margin: 1vh 2vw 1vh 2vw;
+    margin: 1vh 1vw 1vh 2vw;
     line-height: 1.2rem;
-    font-size: 1.05rem;
+    font-size: 1.03rem;
 }
 
 #blog > .blg-container > div > .blg-end{
